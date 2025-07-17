@@ -1,0 +1,27 @@
+*.pth
+*.pt
+ckpt/
+final/
+finalOct25/
+finalOct27/
+after-rebuttal/
+exp/
+reproduce/
+rebuttal/
+sup/
+visualize/
+*/*.pt
+
+*.npy
+
+# 忽略所有__pycache__目录
+__pycache__/
+
+# 忽略所有 .pyc 文件
+*.pyc
+
+# 忽略所有 .pyo 文件
+*.pyo
+
+# 忽略所有 .swp 文件（Vim编辑器产生的交换文件）
+*.swp

@@ -1,0 +1,214 @@
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'MVTec', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: bottle
+INFO:__main__:Sample number: 83
+INFO:__main__:=====================================
+INFO:__main__:Class name: cable
+INFO:__main__:Sample number: 150
+INFO:__main__:=====================================
+INFO:__main__:Class name: capsule
+INFO:__main__:Sample number: 132
+INFO:__main__:=====================================
+INFO:__main__:Class name: carpet
+INFO:__main__:Sample number: 117
+INFO:__main__:=====================================
+INFO:__main__:Class name: grid
+INFO:__main__:Sample number: 78
+INFO:__main__:=====================================
+INFO:__main__:Class name: hazelnut
+INFO:__main__:Sample number: 110
+INFO:__main__:=====================================
+INFO:__main__:Class name: leather
+INFO:__main__:Sample number: 124
+INFO:__main__:=====================================
+INFO:__main__:Class name: metal_nut
+INFO:__main__:Sample number: 115
+INFO:__main__:=====================================
+INFO:__main__:Class name: pill
+INFO:__main__:Sample number: 167
+INFO:__main__:=====================================
+INFO:__main__:Class name: screw
+INFO:__main__:Sample number: 160
+INFO:__main__:=====================================
+INFO:__main__:Class name: tile
+INFO:__main__:Sample number: 117
+INFO:__main__:=====================================
+INFO:__main__:Class name: transistor
+INFO:__main__:Sample number: 100
+INFO:__main__:=====================================
+INFO:__main__:Class name: toothbrush
+INFO:__main__:Sample number: 42
+INFO:__main__:=====================================
+INFO:__main__:Class name: wood
+INFO:__main__:Sample number: 79
+INFO:__main__:=====================================
+INFO:__main__:Class name: zipper
+INFO:__main__:Sample number: 151
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC   image AP 
+    bottle    93.56    63.82       97.54      99.25
+     cable    83.11    26.78       79.52       88.2
+   capsule    95.65    27.92       87.63      97.37
+    carpet    99.45    78.11       98.84      99.69
+      grid    96.95    31.53       96.24      98.73
+  hazelnut     97.7    61.55       88.39       94.0
+   leather    99.31    51.97       100.0      100.0
+ metal_nut    72.34    26.25       76.05      94.28
+      pill     85.9    26.43       81.81      96.19
+     screw    98.75    41.07       90.59      96.76
+      tile    92.98    69.24       98.41      99.41
+transistor    72.18    12.14       74.33      70.61
+toothbrush    95.63    41.88        95.0      98.36
+      wood    97.88    67.83       98.25      99.47
+    zipper    96.84    52.59       94.41      98.49
+   Average   91.882   45.274   90.467333  95.387333
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'BTAD', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: 01
+INFO:__main__:Sample number: 70
+INFO:__main__:=====================================
+INFO:__main__:Class name: 02
+INFO:__main__:Sample number: 230
+INFO:__main__:=====================================
+INFO:__main__:Class name: 03
+INFO:__main__:Sample number: 441
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC  pixel AP image AUC   image AP 
+      01        96.83   57.92       98.25      99.37
+      02        95.33   54.02       86.57      97.91
+      03        98.88   46.46       98.15      92.95
+ Average    97.013333    52.8   94.323333  96.743333
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'MPDD', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: connector
+INFO:__main__:Sample number: 44
+INFO:__main__:=====================================
+INFO:__main__:Class name: tubes
+INFO:__main__:Sample number: 101
+INFO:__main__:=====================================
+INFO:__main__:Class name: metal_plate
+INFO:__main__:Sample number: 97
+INFO:__main__:=====================================
+INFO:__main__:Class name: bracket_white
+INFO:__main__:Sample number: 60
+INFO:__main__:=====================================
+INFO:__main__:Class name: bracket_brown
+INFO:__main__:Sample number: 77
+INFO:__main__:=====================================
+INFO:__main__:Class name: bracket_black
+INFO:__main__:Sample number: 79
+INFO:__main__:=====================================
+INFO:__main__:final results:
+  class name  pixel AUC   pixel AP  image AUC   image AP 
+    connector      97.46      25.22      71.43      62.55
+        tubes      98.79      68.36      98.96      99.56
+  metal_plate       95.0      59.69      92.36      97.22
+bracket_white      98.39       0.96      83.44      80.21
+bracket_brown      94.98       5.54      47.74      68.04
+bracket_black      95.09       1.07      70.81      75.92
+      Average  96.618333  26.806667  77.456667  80.583333
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Brain', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Brain
+INFO:__main__:Sample number: 3715
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.72    44.91     79.26    94.41 
+ Average      95.72    44.91     79.26    94.41 
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Liver', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Liver
+INFO:__main__:Sample number: 1493
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC image AP
+   Liver      97.92    12.87     68.78    57.72 
+ Average      97.92    12.87     68.78    57.72 
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Retina', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Retina
+INFO:__main__:Sample number: 1805
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC image AP
+  Retina      95.31    56.84     81.82    81.8  
+ Average      95.31    56.84     81.82    81.8  
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Colon_clinicDB', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Colon_clinicDB
+INFO:__main__:Sample number: 612
+INFO:__main__:=====================================
+INFO:__main__:final results:
+  class name   pixel AUC pixel AP image AUC image AP
+Colon_clinicDB    89.55    52.63        0        0  
+       Average    89.55    52.63      0.0      0.0  
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Colon_colonDB', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Colon_colonDB
+INFO:__main__:Sample number: 380
+INFO:__main__:=====================================
+INFO:__main__:final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    83.59    33.21        0        0  
+      Average    83.59    33.21      0.0      0.0  
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Colon_Kvasir', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: Kvasir
+INFO:__main__:Sample number: 1000
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      87.14    55.77        0        0  
+ Average      87.14    55.77      0.0      0.0  
+INFO:__main__:args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'dataset': 'Colon_cvc300', 'shot': 4, 'batch_size': 32, 'seed': 111, 'save_path': 'shot0-reproduce', 'visualize': False, 'text_norm_weight': 0.1, 'text_adapt_weight': 0.1, 'image_adapt_weight': 0.1, 'text_adapt_until': 3, 'image_adapt_until': 6}
+INFO:root:Loading pretrained ViT-L-14-336 from OpenAI.
+INFO:root:Resizing position embedding grid-size from (24, 24) to (37, 37)
+INFO:__main__:-----------------------------------------------
+INFO:__main__:load model from epoch 15
+INFO:__main__:-----------------------------------------------
+INFO:__main__:Class name: CVC-300
+INFO:__main__:Sample number: 60
+INFO:__main__:=====================================
+INFO:__main__:final results:
+class name pixel AUC pixel AP image AUC image AP
+ CVC-300      96.84    53.73        0        0  
+ Average      96.84    53.73      0.0      0.0  
